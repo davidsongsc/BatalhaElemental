@@ -1,0 +1,167 @@
+{
+  "elementos": [
+    {
+      "nome": "Aura do Destruidor",
+      "descricao": "Esta carta libera a habilidade da aura da destruição.",
+      "imagem": "auradestrutiva",
+      "tipo": "livro da destruição",
+      "pagina" : "F-10 I-08 A-10"
+    },
+    {
+      "nome": "Manifestação",
+      "descricao": "Esta habilidade permite manifestar auras.",
+      "imagem": "manifestacao",
+      "tipo": "livro da destruição",
+      "pagina" : "D-01"
+    },
+    {
+      "nome": "Concentração",
+      "descricao": "Esta habilidade permite converter aura em energia.",
+      "imagem": "concentracao",
+      "tipo": "livro da destruição",
+      "pagina" : "D-02"
+    },
+    {
+      "nome": "Manipulação",
+      "descricao": "Esta habilidade permite manipular a energia.",
+      "imagem": "chaos",
+      "tipo": "livro da destruição",
+      "pagina" : "D-03"
+    },
+    {
+      "nome": "Emissão",
+      "descricao": "Esta habilidade permite disparar a energia contra um alvo.",
+      "imagem": "ordem",
+      "tipo": "livro da destruição",
+      "pagina" : "D-04"
+      
+    },
+    {
+      "nome": "Liberação",
+      "descricao": "Esta habilidade permite liberar energia.",
+      "imagem": "fogo",
+      "tipo": "livro da destruição",
+      "pagina" : "D-05"
+    },
+    {
+      "nome": "Agua",
+      "descricao": "Feitiçaria",
+      "imagem": "agua",
+      "tipo": "agua",
+      "pagina" : "PC30"
+    },
+    {
+      "nome": "Vento",
+      "descricao": "Feitiçaria",
+      "imagem": "vento",
+      "tipo": "vento",
+      "pagina" : "PC30"
+    },
+    {
+      "nome": "Raio",
+      "descricao": "Feitiçaria",
+      "imagem": "raio",
+      "tipo": "raio",
+      "pagina" : "PC30"
+    },
+    {
+      "nome": "Terra",
+      "descricao": "Feitiçaria",
+      "imagem": "terra",
+      "tipo": "terra",
+      "pagina" : "PC30"
+    },
+    {
+      "nome": "Gelo",
+      "descricao": "Feitiçaria",
+      "imagem": "gelo",
+      "tipo": "gelo",
+      "pagina" : "PC30"
+    },
+    {
+      "nome": "Ácido",
+      "descricao": "Feitiçaria",
+      "imagem": "acido",
+      "tipo": "acido",
+      "pagina" : "PC30"
+    },
+    {
+      "nome": "Veneno",
+      "descricao": "Feitiçaria",
+      "imagem": "veneno",
+      "tipo": "veneno",
+      "pagina" : "PC30"
+    },
+    {
+      "nome": "Metal",
+      "descricao": "Feitiçaria",
+      "imagem": "metal",
+      "tipo": "metal",
+      "pagina" : "PC30"
+    },
+    {
+      "nome": "Luz",
+      "descricao": "Feitiçaria",
+      "imagem": "luz",
+      "tipo": "divino i",
+      "pagina" : "PC30"
+    },
+    {
+      "nome": "Escuridão",
+      "descricao": "Feitiçaria",
+      "imagem": "escuridao",
+      "tipo": "escuridao",
+      "pagina" : "PC30"
+    },
+    {
+      "nome": "Terra Dimensional",
+      "descricao": "Manipulação da dimensão, gravidade, objetos e portais.",
+      "imagem": "terra_dimensional",
+      "tipo": "terra",
+      "pagina" : "PC30"
+    },
+    {
+      "nome": "Gelo Ardente",
+      "descricao": "Mistura de frio do gelo e calor do fogo, congela tudo o que toca.",
+      "imagem": "gelo_ardente",
+      "tipo": "gelo",
+      "pagina" : "PC30"
+    },
+    {
+      "nome": "Escuridão Viva",
+      "descricao": "Manipulação da escuridão como se fosse um ser vivo, controle de forma e movimento.",
+      "imagem": "escuridao_viva",
+      "tipo": "escuridao",
+      "pagina" : "PC30"
+    },
+    {
+      "nome": "Luz Espectral",
+      "descricao": "Emissão de uma luz branca e intensa, moldável em formas diversas, camuflagem e invisibilidade.",
+      "imagem": "luz_espectral",
+      "tipo": "luz",
+      "pagina" : "PC30"
+    },
+    {
+      "nome": "Sonhos Lúcidos",
+      "descricao": "Manipulação da realidade dos sonhos, percepção do tempo e espaço, ilusões e pesadelos.",
+      "imagem": "sonhos_lucidos",
+      "tipo": "livro da criação",
+      "pagina" : "PC30"
+    },
+    {
+      "nome": "Madeira",
+      "descricao": "Feitiçaria",
+      "imagem": "madeira",
+      "tipo": "madeira",
+      "pagina" : "PC30"
+    },
+    {
+      "nome": "Metal",
+      "descricao": "Feitiçaria",
+      "imagem": "metal",
+      "tipo": "metal",
+      "pagina" : "PC30"
+    }
+    
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "classeapi": [
+    {
+      "nome": "Observador",
+      "descricao": "Capacidade de absorver energia e vasta capacidade sensorial.",
+      "imagem": "observador.png",
+      "tipo": "Espiritual",
+      "forte": "Útil para detectar inimigos à distância, proteger aliados de ataques",
+      "fraco": "Limitado em habilidades ofensivas, pode ter baixa resistência"
+    },
+    {
+      "nome": "Manipulador",
+      "descricao": "Capacidade de manipular energia mas não pode emitir.",
+      "imagem": "manipulador.png",
+      "tipo": "Sobrenatural",
+      "forte": "Habilidade de controlar a batalha e influenciar os resultados, pode se especializar em diversos tipos de energia.",
+      "fraco": "Pode ser vulnerável a ataques físicos e pode ter limitações em habilidades curativas."
+    },
+    {
+      "nome": "Conjurador",
+      "descricao": "Capacidade de conjurar qualquer coisa ao alcance da sua mana.",
+      "imagem": "conjurador.png",
+      "tipo": "Espiritual",
+      "forte": "Pode ser altamente adaptável a qualquer situação, pode ser especializado em diversas áreas, como invocação, transmutação, ilusão, etc.",
+      "fraco": "Pode ser limitado pela sua reserva de mana e pode ter fraquezas contra inimigos com alta resistência mágica."
+    },
+    {
+      "nome": "Emissor",
+      "descricao": "Capacidade de emitir energia tanto para curar ou infligir dano.",
+      "imagem": "emissor.png",
+      "tipo": "Sobrenatural",
+      "forte": "Pode ter alta flexibilidade em batalha, pode se especializar em diversas áreas, como cura, dano elemental, etc.",
+      "fraco": "Pode ter limitações em habilidades defensivas e pode ser vulnerável a ataques físicos."
+    },
+    {
+      "nome": "Luminar",
+      "descricao": "Capacidade de manipular a energia da luz para cura ou dano.",
+      "imagem": "luminar.png",
+      "tipo": "Espiritual",
+      "forte": "Capaz de curar e proteger aliados com habilidades de luz, pode ter alta eficácia contra inimigos das trevas.",
+      "fraco": "Pode ter limitações contra inimigos com alta resistência mágica das trevas."
+    },
+    {
+      "nome": "Sombrio",
+      "descricao": "Capacidade de manipular a energia das sombras para cura ou dano.",
+      "imagem": "sombrio.png",
+      "tipo": "Sobrenatural",
+      "forte": "Capaz de infligir dano mortal aos inimigos com habilidades de sombra, pode ter alta eficácia contra inimigos da luz.",
+      "fraco": "Pode ter limitações contra inimigos com alta resistência mágica da luz."
+    },
+    {
+      "nome": "Caçador Sobrenatural",
+      "descricao": "Capacidade de rastrear e caçar seres sobrenaturais.",
+      "imagem": "sobrenatural",
+      "tipo": "sobrenatural",
+      "forte": "Capacidade de identificar fraquezas de seres sobrenaturais e causar dano extra a eles, bem como proteger aliados de ataques sobrenaturais.",
+      "fraco": "Limitado em habilidades físicas e pode ter baixa resistência contra ataques físicos."
+    },
+    {
+      "nome": "Conjurador de Ilusões",
+      "descricao": "Capacidade de criar ilusões vívidas e enganar os sentidos dos inimigos.",
+      "imagem": "ilusao",
+      "tipo": "sobrenatural",
+      "forte": "Capacidade de confundir e desorientar inimigos, bem como proteger aliados de ataques mentais.",
+      "fraco": "Limitado em habilidades físicas e pode ter baixa resistência contra ataques físicos."
+    },
+    {
+      "nome": "Mestre Elemental",
+      "descricao": "Capacidade de controlar os quatro elementos básicos (fogo, água, terra e ar).",
+      "imagem": "elemental",
+      "tipo": "sobrenatural",
+      "forte": "Capacidade de causar dano elemental a inimigos, bem como manipular o ambiente em benefício próprio.",
+      "fraco": "Pode ser limitado em habilidades defensivas e ter baixa resistência contra ataques elementais."
+    },
+    {
+      "nome": "Manipulador de Espíritos",
+      "descricao": "Capacidade de manipular a energia espiritual dos seres vivos.",
+      "imagem": "espiritual",
+      "tipo": "espiritual",
+      "forte": "Capacidade de controlar as emoções dos inimigos, curar aliados, e fortalecer o espírito de seus companheiros.",
+      "fraco": "Limitado em habilidades físicas e pode ter baixa resistência contra ataques físicos."
+    },
+    {
+      "nome": "Necromante",
+      "descricao": "Capacidade de controlar os mortos e manipular a energia da morte.",
+      "imagem": "necromante",
+      "tipo": "sobrenatural",
+      "forte": "Capacidade de convocar e controlar exércitos de mortos-vivos, causar dano a inimigos com energia da morte, e até mesmo reviver aliados mortos.",
+      "fraco": "Limitado em habilidades defensivas e vulnerável a ataques que afetam a energia da morte."
+    },
+    {
+      "nome": "Alquimista",
+      "descricao": "Capacidade de criar poções e elixires que concedem habilidades temporárias.",
+      "imagem": "alquimista",
+      "tipo": "humano",
+      "forte": "Capacidade de criar poções que curam feridas, concedem habilidades temporárias, e até mesmo transformam o alquimista em uma criatura mais forte.",
+      "fraco": "Limitado em habilidades ofensivas e vulnerável a ataques que afetam a mente."
+    },
+    {
+      "nome": "Xamã",
+      "descricao": "Capacidade de invocar espíritos e manipular a energia natural.",
+      "imagem": "xama",
+      "tipo": "espiritual",
+      "forte": "Capacidade de curar aliados, proteger contra ataques elementais, e até mesmo convocar espíritos da natureza para lutar ao seu lado.",
+      "fraco": "Limitado em habilidades ofensivas e vulnerável a ataques que afetam a mente."
+    },
+    {
+      "nome": "Guerreiro da Luz",
+      "descricao": "Capacidade de manipular a energia da luz e causar dano a inimigos.",
+      "imagem": "guerreiro_luz",
+      "tipo": "espiritual",
+      "forte": "Capacidade de curar aliados, proteger contra ataques das trevas, e causar dano a inimigos que temem a luz.",
+      "fraco": "Limitado em habilidades ofensivas contra inimigos que são resistentes à luz."
+    },
+    {
+      "nome": "Caçador de Demônios",
+      "descricao": "Capacidade de detectar e caçar demônios e outras criaturas sobrenaturais.",
+      "imagem": "cacador_demonios",
+      "tipo": "sobrenatural",
+      "forte": "Capacidade de detectar e rastrear criaturas sobrenaturais, bem como causar dano a elas.",
+      "fraco": "Limitado em habilidades defensivas e vulnerável a ataques mágicos."
+    },
+    {
+      "nome": "Vampiro",
+      "descricao": "Capacidade de se alimentar da energia vital de outros seres vivos.",
+      "imagem": "vampiro",
+      "tipo": "sobrenatural",
+      "forte": "Capacidade de se curar, aumentar a força e velocidade, e manipular a energia da escuridão.",
+      "fraco": "Vulnerável a ataques de fogo e luz, bem como a falta de sangue."
+    },
+    {
+      "nome": "Lobisomem",
+      "descricao": "Capacidade de se transformar em um lobo e manipular a energia da natureza.",
+      "imagem": "lobisomem",
+      "tipo": "sobrenatural",
+      "forte": "Capacidade de se curar, aumentar a força e velocidade, e manipular a energia da natureza.",
+      "fraco": "Vulnerável a ataques de prata e a perda de controle durante a transformação."
+    },
+    {
+      "nome": "Bruxo",
+      "descricao": "Capacidade de manipular a energia mágica e lançar feitiços.",
+      "imagem": "bruxo",
+      "tipo": "sobrenatural",
+      "forte": "Capacidade de lançar feitiços ofensivos e defensivos, e manipular a energia da escuridão.",
+      "fraco": "Limitado em habilidades físicas e vulnerável a ataques que afetam a energia mágica."
+    },
+    {
+      "nome": "Invoqueiro",
+      "descricao": "Capacidade de invocar criaturas mágicas para lutar ao seu lado.",
+      "imagem": "invocador",
+      "tipo": "sobrenatural",
+      "forte": "Capacidade de invocar criaturas para lutar ao seu lado, e manipular a energia da natureza para fortalecê-las.",
+      "fraco": "Limitado em habilidades defensivas e vulnerável a ataques que afetam a energia mágica."
+    },
+    {
+      "nome": "Médium",
+      "descricao": "Capacidade de se comunicar com os mortos e manipular a energia espiritual.",
+      "imagem": "medium",
+      "tipo": "espiritual",
+      "forte": "Capacidade de se comunicar com os mortos e obter informações valiosas, bem como manipular a energia espiritual para curar ou proteger aliados.",
+      "fraco": "Limitado em habilidades ofensivas e vulnerável a ataques que afetam a energia espiritual."
+    },
+    {
+      "nome": "Mago Elemental",
+      "descricao": "Capacidade de manipular os elementos da natureza.",
+      "imagem": "mago_elemental",
+      "tipo": "espiritual",
+      "forte": "Capacidade de manipular os elementos da natureza, como fogo, água, terra e ar, para causar dano aos inimigos e fortalecer aliados.",
+      "fraco": "Limitado em habilidades defensivas e vulnerável a ataques que afetam a energia mágica."
+    },
+    {
+      "nome": "Druida",
+      "descricao": "Capacidade de se conectar com a energia da natureza e assumir sua forma.",
+      "imagem": "druida",
+      "tipo": "espiritual",
+      "forte": "Capacidade de assumir a forma de animais e usar a energia da natureza para curar e proteger aliados.",
+      "fraco": "Limitado em habilidades defensivas e vulnerável a ataques que afetam a energia mágica."
+    },
+    {
+      "nome": "Mestre das Sombras",
+      "descricao": "Capacidade de manipular a energia das sombras e se mover rapidamente entre elas.",
+      "imagem": "mestre_sombras",
+      "tipo": "sobrenatural",
+      "forte": "Capacidade de se mover rapidamente entre as sombras e usar a energia das sombras para enfraquecer os inimigos.",
+      "fraco": "Limitado em habilidades defensivas e vulnerável a ataques de luz."
+    },
+    {
+      "nome": "Sacerdote",
+      "descricao": "Capacidade de canalizar a energia divina para curar e proteger aliados.",
+      "imagem": "sacerdote",
+      "tipo": "espiritual",
+      "forte": "Capacidade de curar ferimentos graves e proteger aliados de ataques.",
+      "fraco": "Limitado em habilidades ofensivas e vulnerável a ataques que afetam a energia divina."
+    }
+  ]
+}

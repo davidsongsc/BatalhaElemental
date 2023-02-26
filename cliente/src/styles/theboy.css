@@ -1,0 +1,62 @@
+:root{
+    --posicao-principal: -105px;
+    --caminhar-frente-esquerda: 0px;
+    --caminhar-frente-direita: -215px;
+    --caminhar-esquerda: -330px;
+    --caminhar-direita: -440px;
+}
+#theboy {
+    width: 21px;
+    height: 68px;
+    animation: exibicao .5s infinite
+}
+
+@keyframes exibicao {
+    0% {
+        background-image: url("http://192.168.0.50:5500/img/theboy/Idle%20(1).png");
+    }
+    
+    7% {
+        background-image: url("http://192.168.0.50:5500/img/theboy/Idle%20(2).png");
+    }
+    14% {
+        background-image: url("http://192.168.0.50:5500/img/theboy/Idle%20(3).png");
+    }
+    21% {
+        background-image: url("http://192.168.0.50:5500/img/theboy/Idle%20(4).png");
+    }
+    29% {
+        background-image: url("http://192.168.0.50:5500/img/theboy/Idle%20(5).png");
+    }
+    35% {
+        background-image: url("http://192.168.0.50:5500/img/theboy/Idle%20(6).png");
+    }
+    42% {
+        background-image: url("http://192.168.0.50:5500/img/theboy/Idle%20(7).png");
+    }
+    49% {
+        background-image: url("http://192.168.0.50:5500/img/theboy/Idle%20(8).png");
+    }
+    56% {
+        background-image: url("http://192.168.0.50:5500/img/theboy/Idle%20(9).png");
+    }
+    61% {
+        background-image: url("http://192.168.0.50:5500/img/theboy/Idle%20(10).png");
+    }
+    68% {
+        background-image: url("http://192.168.0.50:5500/img/theboy/Idle%20(11).png");
+    }
+    74% {
+        background-image: url("http://192.168.0.50:5500/img/theboy/Idle%20(12).png");
+    }
+    83% {
+        background-image: url("http://192.168.0.50:5500/img/theboy/Idle%20(13).png");
+    }
+    92% {
+        background-image: url("http://192.168.0.50:5500/img/theboy/Idle%20(14).png");
+    }
+    100% {
+        background-image: url("http://192.168.0.50:5500/img/theboy/Idle%20(15).png");
+    }
+
+}

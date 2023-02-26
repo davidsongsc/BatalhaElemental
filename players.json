@@ -1,0 +1,23 @@
+{
+  "jogadores": [
+    {
+      "nome": "Soldado Ajustino",
+      "imagem": "soldadoelite.png",
+      "tipo": "terra",
+      "estilo": [
+        "agua",
+        "vento"
+      ],
+      "desvantagem": [
+        "fogo",
+        "terra"
+      ],
+      "atributos": {
+        "forca": 10,
+        "defesa": 8,
+        "velocidade": 7,
+        "vitalidade": 12
+      }
+    }
+  ]
+}
