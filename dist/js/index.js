@@ -19,3 +19,5 @@ var strings = ['um', 'homem', 'bateu', 'em', 'minha', 'porta', 'e', 'eu'];
 var minhaTupla;
 minhaTupla = [15, 'manieca', strings];
 console.log(minhaTupla);
+// object literals -> {prop: value}
+var usuario = { name: "monico", age: 15 };

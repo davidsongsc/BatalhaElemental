@@ -1,0 +1,286 @@
+@media screen and (max-width: 666px) {
+    body {
+        margin: 0 0;
+        min-height: 200vh;
+        animation: cores 40s linear infinite;
+    }
+
+    header {
+        padding: 0;
+        top: -175px;
+        position: relative;
+        background-image: linear-gradient(#FF4944, #ff6944);
+        transition: 3s;
+        transition-delay: 1.4s;
+        z-index: 999;
+
+    }
+
+
+    .banner {
+        position: relative;
+        margin: 175px 97px;
+    }
+
+    .barra-lateral-direita {
+        display: flex;
+
+
+
+    }
+
+    nav ul {
+        position: relative;
+        margin: -11px -25px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: -125px 0;
+        align-content: flex-start;
+        /* flex-direction: column;*/
+
+    }
+
+    nav ul li {
+        font-size: 16px;
+    }
+
+    .detalhes-partida {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 50px 50px;
+        flex-direction: column;
+    }
+
+    .pagina-inicial {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: inherit;
+        flex-direction: column;
+    }
+
+    .barra-lateral-esquerda {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: -webkit-fill-available;
+        flex-wrap: nowrap;
+        align-content: center;
+    }
+
+    .controle-batalha {
+        transform: scale(0.9);
+        display: flex;
+        flex-direction: row;
+        /* justify-content: center; */
+        align-items: center;
+        margin-top: -93px;
+        margin-left: -1px;
+        margin-top: -60px;
+        padding: 13px 29px;
+        background-color: aliceblue;
+        flex-wrap: nowrap;
+    }
+
+    .controle-batalha .btn-dados-partida {
+        display: none;
+    }
+
+    .controle-batalha .btn-dados-perfil {
+        display: none;
+    }
+
+    #gr-partidas-home {
+        background-color: rgb(0, 0, 0);
+        margin: 0px 0 0 0;
+        padding: 10px;
+    }
+
+    #gr-buscador-home {
+        background-color: orangered;
+        margin: 0px;
+        padding: 68px 0 77px 0px;
+    }
+
+    #gr-buscador-home h2 {
+        padding: 0px 0 115px 0;
+
+    }
+
+    #gr-buscador-home nav ul li {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 2px 1px 2px rgb(0, 0, 0);
+    }
+
+    footer {
+        background-color: grey;
+        position: relative;
+        margin: 81px 0 0 0;
+        padding: 60px;
+    }
+
+    .cartaxx {
+        width: 130px;
+        height: 386px;
+        border: 6px solid rgb(255, 255, 255);
+        border-radius: 6px;
+        box-shadow: 2px 1px 3px black;
+        padding: 10px;
+        margin: -281px 0 0 -108px;
+        transform: scale(0.3);
+        background-size: 335px;
+    }
+
+    .cartayy {
+        width: 86px;
+        height: 206px px;
+        border: 1px solid goldenrod;
+        margin: 2px;
+    }
+
+    .inventario {
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        margin-top: 105px;
+        align-content: flex-start;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+    }
+
+    .carta {
+        border: 2px solid gray;
+        position: relative;
+        background-size: 100%;
+        background-color: wheat;
+        display: block;
+        background-color: rgb(0, 0, 0);
+        color: white;
+        width: 300px;
+        transform: scale(.35);
+        margin: -249px -92px;
+        border-radius: 20px;
+        box-shadow: 1px 1px 3px white;
+    }
+
+    .cartas-inventario {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: right;
+        align-items: center;
+        width: 301px;
+        transform: scale(1.2);
+        margin-left: 42px;
+        margin-top: 145px;
+        border-style: dashed;
+
+    }
+
+    .cartas-conflito {
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        justify-content: flex-start;
+        left: x;
+        align-items: center;
+        /* margin: -6px -18px; */
+        width: 400px;
+    }
+
+    .menor {
+        margin: -210px -88px;
+        transform: scale(0.5);
+    }
+}
+
+@media screen and (min-width: 667px) and (max-width: 919px) {
+    header {
+
+        background-image: linear-gradient(#44baff, #6d44ff);
+
+    }
+
+    .pagina-inicial {
+
+        justify-content: inherit;
+
+    }
+
+    .barra-lateral-esquerda {
+        margin-top: 60px;
+        width: 11%;
+    }
+
+    .inventario {
+        margin: -10px 0 0 43px;
+        width: 337px;
+    }
+
+    .cartas-inventario {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: right;
+        align-items: center;
+        width: 360px;
+        transform: scale(1.55);
+        margin-left: 387px;
+        margin-top: 355px;
+
+    }
+
+    .cartaxx {
+        width: 130px;
+        height: 386px;
+        border: 6px solid rgb(255, 255, 255);
+        border-radius: 6px;
+        box-shadow: 2px 1px 3px black;
+        padding: 23px;
+        margin: -310px 0 0 -129px;
+        transform: scale(0.3);
+        background-size: 335px;
+    }
+
+    .cartayy {
+        width: 86px;
+        height: 206px px;
+        border: 1px solid goldenrod;
+        margin: 2px;
+    }
+
+
+    .cartas-conflito {
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        justify-content: flex-start;
+        left: x;
+        align-items: center;
+        /* margin: -6px -18px; */
+        width: 400px;
+    }
+}
+
+@media screen and (min-width: 920px) and (max-width: 1200px) {
+    header {
+
+        background-image: linear-gradient(#a544ff, #f944ff);
+
+    }
+}
+
+@keyframes cores {
+    0% {
+        background-color: #ff6944;
+    }
+
+    50% {
+        background-color: #6d44ff;
+    }
+
+    100% {
+        background-color: #ff6944;
+    }
+}

@@ -1,0 +1,83 @@
+.pagina-inicial {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 10px;
+  height: 100vh;
+}
+
+.barra-lateral-direita {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  /*width: 35%;*/
+}
+
+.inventario {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 105px;
+}
+
+.inventario h2 {
+  margin-bottom: 10px;
+}
+
+.cartas-inventario {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: -72px;
+}
+
+.cartaxx {
+  width: 130px;
+    height: 366px;
+    border: 6px solid rgb(255, 255, 255);
+    border-radius: 6px;
+    box-shadow: 2px 1px 3px black;
+    padding: 22px;
+    margin: -82px 0 0 3px;
+    transform: scaleY(0.8);
+    background-size: 335px;
+    background-blend-mode: difference;
+    /* background-size: cover;*/
+  background-image: url('https://i.pinimg.com/originals/d3/b6/41/d3b6416c5488257eaa364d57b49d530b.jpg');
+}
+
+.cartas-conflito {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  /* margin-bottom: 10px; */
+  width: 559px;
+  /* flex-direction: row;*/
+}
+
+.cartas-conflito h2 {
+  margin-bottom: 10px;
+}
+
+.cartayy {
+  width: 92px;
+  height: 206px;
+  border: 1px solid goldenrod;
+  margin: 5px;
+}
+
+.inventario button {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

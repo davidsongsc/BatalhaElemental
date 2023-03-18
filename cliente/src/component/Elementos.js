@@ -1,24 +1,47 @@
-import { useState } from 'react';
-import React, { useEffect } from 'react';
+import React, { useState } from 'react';
+import ElementosGrupoCadeia from './ElementosGrupoCadeia';
+import ElementosGrupoLantus from './ElementosGrupoLantus';
+import ElementosGrupoPesquisa from './ElementosGrupoPesquisa';
 
-import "./elementoApi"
-function Elementos() {
-    const [isLoading, setIsLoading] = useState(true);
-    useEffect(() => {
-    // Simula o carregamento da página por 3 segundos
-    setTimeout(() => {
-      setIsLoading(false);
-    }, 3000);
-  }, []);
-    return (
-        <div>
-            {isLoading && <p>Carregando...</p>}
-            {<div id="elementos-grupos-cadeia"></div>}
+function Elemento() {
+  const [cartaSelecionada, setCartaSelecionada] = useState(null);
+  const [ordernarPorNivel, setOrdenarPorNivel] = useState(false);
 
+  const handleClick = (nome, index) => {
+    if (cartaSelecionada === nome) {
+      setCartaSelecionada(null);
+    } else {
+      setCartaSelecionada(nome);
+    }
+  };
 
+  const handleOrdenarPorNivel = () => {
+    setOrdenarPorNivel(!ordernarPorNivel);
+  };
 
-        </div>
-    );
+  return (
+    <div className="container">
+      <h1>Minha coleção de cartas</h1>
+      <button onClick={handleOrdenarPorNivel}>
+        {ordernarPorNivel ? 'Desordenar' : 'Ordenar'} por Nível
+      </button>
+      <ElementosGrupoCadeia
+        cartaSelecionada={cartaSelecionada}
+        handleClick={handleClick}
+        ordernarPorNivel={ordernarPorNivel}
+      />
+      <ElementosGrupoLantus
+        cartaSelecionada={cartaSelecionada}
+        handleClick={handleClick}
+        ordernarPorNivel={ordernarPorNivel}
+      />
+      <ElementosGrupoPesquisa
+        cartaSelecionada={cartaSelecionada}
+        handleClick={handleClick}
+        ordernarPorNivel={ordernarPorNivel}
+      />
+    </div>
+  );
 }
 
-export default Elementos;
+export default Elemento;

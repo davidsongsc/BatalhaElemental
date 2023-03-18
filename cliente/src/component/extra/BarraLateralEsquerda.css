@@ -1,0 +1,47 @@
+.barra-lateral-esquerda {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 25%;
+}
+
+.controle-batalha {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 118px;
+  transform: scale(1.5);
+  width: 100%;
+  margin-left: -3px;
+  padding: 94px 0px;
+
+  background-color: aliceblue;
+}
+
+.controle-batalha button {
+  margin: 5px;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 123px;
+}
+
+@media screen and (max-width: 667px) {
+  .controle-batalha {
+    transform: scale(0.9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -93px;
+    width: 100%;
+    margin-left: 19px;
+    padding: 143px 29px;
+    background-color: aliceblue;
+  }
+}

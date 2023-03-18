@@ -1,0 +1,148 @@
+.carta-selecionada-a {
+  border: 2px solid green;
+  box-shadow: 1px 1px 9px rgb(0, 255, 0);
+
+  animation: selecaoa 4s infinite;
+
+}
+
+.carta-selecionada-b {
+  border: 2px solid rgb(255, 230, 0);
+  box-shadow: 1px 1px 9px rgb(255, 230, 0);
+
+  animation: selecaob 4s infinite;
+}
+
+.carta-selecionada-c {
+  border: 2px solid rgb(241, 232, 243);
+  box-shadow: 1px 1px 9px rgb(255, 15, 15);
+
+  animation: selecaoc 4s infinite;
+
+}
+
+.carta-selecionada-d {
+  border: 2px solid white;
+  box-shadow: 1px 1px 9px rgb(0, 204, 255);
+
+  animation: selecaod 8s infinite;
+
+}
+
+.carta-selecionada-e {
+  border: 2px solid rgb(0, 0, 87);
+  box-shadow: 1px 1px 9px green;
+
+  animation: selecaoe 4s infinite;
+
+}
+
+@keyframes selecaoa {
+  0% {
+    border: 2px solid rgb(0, 68, 0);
+
+  }
+
+  20% {
+    border: 2px solid rgb(0, 247, 0);
+
+
+  }
+
+  100% {
+    border: 2px solid rgb(0, 68, 0);
+
+  }
+
+
+}
+
+@keyframes selecaob {
+  0% {
+    border: 2px solid rgb(253, 194, 0);
+  }
+
+  20% {
+    border: 2px solid rgb(253, 101, 0);
+  }
+
+  100% {
+    border: 2px solid rgb(255, 230, 0);
+  }
+
+}
+
+@keyframes selecaoc {
+  0% {
+    border: 2px solid rgb(0, 255, 255);
+    box-shadow: 1px 1px 9px rgb(255, 255, 255);
+  }
+
+  20% {
+    border: 2px solid rgb(255, 0, 0);
+    box-shadow: 1px 1px 9px rgb(255, 0, 0);
+  }
+
+  100% {
+    border: 2px solid rgb(0, 255, 255);
+    box-shadow: 1px 1px 9px rgb(255, 255, 255);
+  }
+
+}
+
+@keyframes selecaod {
+  0% {
+    border-top-color: rgb(2, 154, 255);
+    border-left-color: rgb(0, 255, 34);
+    border-bottom-color: rgb(2, 154, 255);
+    border-right-color: rgb(0, 255, 34);
+  }
+
+  20% {
+    border-top-color: rgb(0, 255, 34);
+    border-left-color: rgb(2, 154, 255);
+    border-bottom-color: rgb(0, 255, 34);
+    border-right-color: rgb(2, 154, 255);
+  }
+
+  40% {
+    border-top-color: rgb(2, 154, 255);
+    border-left-color: rgb(0, 255, 34);
+    border-bottom-color: rgb(2, 154, 255);
+    border-right-color: rgb(0, 255, 34);
+  }
+
+  60% {
+    border-top-color: rgb(0, 255, 34);
+    border-left-color: rgb(2, 154, 255);
+    border-bottom-color: rgb(0, 255, 34);
+    border-right-color: rgb(2, 154, 255);
+  }
+
+  80% {
+    border-top-color: rgb(2, 154, 255);
+    border-left-color: rgb(0, 255, 34);
+    border-bottom-color: rgb(2, 154, 255);
+    border-right-color: rgb(0, 255, 34);
+  }
+
+  100% {
+    border-top-color: rgb(0, 255, 34);
+    border-left-color: rgb(2, 154, 255);
+    border-bottom-color: rgb(0, 255, 34);
+    border-right-color: rgb(2, 154, 255);
+  }
+
+
+}
+
+@keyframes selecaoe {
+  0% {
+    border: 2px solid rgb(61, 61, 70);
+  }
+
+  100% {
+    border: 2px solid rgb(0, 0, 87);
+  }
+
+}
