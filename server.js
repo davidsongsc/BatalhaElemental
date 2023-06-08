@@ -114,7 +114,7 @@ app.get('/player/:pesquisa', (req, res) => {
     inventario: {
       posicao_a1: ["K1", 1],    // area de ataque um, mais forte
       posicao_a2: ["K48", 2],     // area de ataque dois, longa distancia
-      posicao_a3: ["vazio", 3],    // area de ataque tres, encantamentos
+      posicao_a3: ["K24", 3],    // area de ataque tres, encantamentos
       posicao_a4: ["vazio", 4],    // area de ataque quatro, ataque combinado
 
       posicao_d1: ["vazio", 5],
@@ -123,14 +123,14 @@ app.get('/player/:pesquisa', (req, res) => {
       posicao_d4: ["vazio", 8],
 
       posicao_c1: ["K21", 9],
-      posicao_c2: ["vazio", 10],
-      posicao_c3: ["vazio", 11],
+      posicao_c2: ["K15", 10],
+      posicao_c3: ["K16", 11],
       posicao_c4: ["vazio", 12],
 
       posicao_f1: ["vazio", 13],
       posicao_f2: ["vazio", 14],
-      posicao_f3: ["vazio", 15],
-      posicao_f4: ["vazio", 16],
+      posicao_f3: ["K30", 15],
+      posicao_f4: ["K71", 16],
     }
     ,
     inventario2: {

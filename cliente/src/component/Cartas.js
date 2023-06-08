@@ -148,6 +148,7 @@ function Elementos() {
               <div id="fonte-poder-carta">
                 <div> A{item.poder}</div>
                 <div> D{item.defesa}</div>
+                <div> J{item.defesa}</div>
               </div>
             </div>
           </div>

@@ -52,13 +52,13 @@
 }
 
 
-.frente h3 {
+h3 {
     background-color: rgb(61, 55, 54);
-    background-image: linear-gradient(#ed1212, #a33e3e, #ff0303);
     padding: 10px 25px;
-    height: 34px;
-    width: 236px;
-    border-radius: 7px;
+    margin: auto;
+    width: 250px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
     box-shadow: 1px 1px 2px black;
     text-align: center;
     text-transform: uppercase;
@@ -67,15 +67,13 @@
     font-weight: 100;
     font-size: 25px;
     position: absolute;
-    margin: 424px 0 47px -38px;
-    opacity: 0.85;
     z-index: 99;
 }
 
 .carta h4 {
     background-image: linear-gradient(rgb(0, 0, 0), rgba(3, 3, 3), rgba(0, 0, 0));
     font-family: 'Archivo', serif;
-    font-size: 20px;
+    font-size: 15px;
     text-transform: uppercase;
     border-radius: 12px;
     opacity: 0.8;
@@ -84,7 +82,7 @@
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
     margin-top: -23px;
-    padding: 16px 10px;
+
 }
 
 .carta h5 {
@@ -95,7 +93,7 @@
     letter-spacing: 5px;
     background-color: rgb(218, 226, 209);
     color: rgb(27, 26, 26);
-    padding: 10px;
+    
     margin-top: -28px;
     font-size: 18px;
     font-family: "Archivo Narrow", serif;
@@ -113,14 +111,11 @@
 
 .carta .nivel {
     position: relative;
-    padding: 0px 14px;
-    border-radius: 7px;
-    background-color: #00000094;
+    margin-top: -2px;
     color: white;
     font-family: 'Tilt Prism', sans-serif;
-    /* left: 709px; */
-    font-size: 30px;
-    margin: 5px 0 0px 126px;
+    text-align: center;
+    font-size: 9px;
     z-index: 100;
 
 }
@@ -170,16 +165,16 @@
 }
 
 #fonte-poder-carta div {
-    width: 31%;
+    width: 10%;
     text-align: center;
     background-color: antiquewhite;
     color: black;
-    margin: 0px 2px 0 0;
+    margin: 5px;
     border-radius: 4px;
-    font-size: 18px;
+    font-size: 15px;
     font-family: 'Archivo';
     letter-spacing: 6px;
-    font-weight: 900;
+    font-weight: 400;
 
 }
 

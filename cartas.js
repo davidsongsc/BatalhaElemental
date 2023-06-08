@@ -1,36 +1,6 @@
-{
-  "elementos": [
-    {
-      "id": 0,
-      "serial": "K0",
-      "nome": "berserk",
-      "tipo": "especial",
-      "efeito": "normal",
-      "descricao": "aura",
-      "imagem": "https://media.tenor.com/ejgf5x57n20AAAAC/kaido-hybrid-kaido.gif",
-      "poder": 18,
-      "defesa": 12,
-      "imgefeito": "invert(0)",
-      "posicao": "scaleY(1)",
-      "nivel": 1,
-      "combina": "DD0404"
-    },
-    {
-      "id": 1,
-      "serial": "K1",
-      "nome": "guerreiro",
-      "tipo": "humano",
-      "efeito": "normal",
-      "descricao": "guerreiro",
-      "imagem": "https://i.pinimg.com/originals/e9/f1/e2/e9f1e247c9238ba817ad73780f4c6df6.jpg",
-      "poder": 16,
-      "defesa": 14,
-      "imgefeito": "invert(0)",
-      "posicao": "scaleY(1)",
-      "nivel": 9,
-      "combina": "DD0404"
-    },
-    {
+/*
+
+ {
       "id": 2,
       "serial": "K2",
       "nome": "espada",
@@ -795,5 +765,5 @@
       "nivel": 1,
       "combina": "DD0404"
     }
-  ]
-}
+    
+    */

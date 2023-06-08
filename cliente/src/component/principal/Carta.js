@@ -22,10 +22,10 @@ function Carta(props) {
 
 
   return (
-    <div 
+    <div
       className={`carta ${item.nome === cartaSelecionada ? corSelecionada : ''}${argumento} ${isSelected}`}
       id="elemento-carta"
-      
+
       style={{
         backgroundImage: `${fundoCarta(item.tipo, item.efeito)}`,
 
@@ -34,11 +34,17 @@ function Carta(props) {
       }}
     >
       <div>
-        <div className="nivel">XP:{item.nivel}</div>
+      <h3>{item.nome}</h3>
         <div>
+        
           <ul key={index} className="frente">
-            <h3>{item.nome}</h3>
-            <h4>{item.efeito}</h4>
+         
+          <div className="nivel">Nivel:{item.nivel}</div>
+            <div className="indicador">
+         
+              <h4>{item.efeito}</h4>
+            </div>
+
             <h5>{item.tipo}</h5>
             <div id="imagem" className={item.nome}>
               <div
@@ -53,6 +59,7 @@ function Carta(props) {
           </ul>
           <div id="fonte-poder-carta">
             <div> A{medidor(item.poder, item.nivel, item.efeito, item.defesa)}</div>
+            <div> E{medidor(item.defesa, item.nivel, item.efeito, item.poder)}</div>
             <div> D{medidor(item.defesa, item.nivel, item.efeito, item.poder)}</div>
           </div>
         </div>
