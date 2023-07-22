@@ -15,6 +15,7 @@ function Header() {
             <nav>
                 <ul>
                     <li><a href="/">Início</a></li>
+                    <li><a href="/novo">Novo Mundo</a></li>
                     <li> <a href="/links">Opções</a>
 
                     </li>

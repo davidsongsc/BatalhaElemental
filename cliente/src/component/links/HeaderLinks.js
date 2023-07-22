@@ -9,22 +9,18 @@ function Header() {
     return (
         <div>
             <div className="banner">
-                <h1>Desvio</h1>
+                <h1>LOGICA</h1>
                 <p>Aqui você encontra o mapa do site e a dinamica do game!</p>
-                <h1>Tipo</h1>
+
             </div>
             <nav>
                 <ul>
-                <li><a href="pesquisa/todas">Todas</a></li>
-                    <li><a href="pesquisa/humano">humanos</a></li>
-                    <li><a href="pesquisa/elfo">elfos</a></li>
-                    <li><a href="pesquisa/mutante">mutantes</a></li>
-                    <li><a href="pesquisa/alien">aliens</a></li>
-                    <li><a href="pesquisa/armamento">armamentos</a></li>
-                    <li><a href="pesquisa/mecanica">mecanica</a></li>
-                    <li><a href="pesquisa/especial">especiais</a></li>
+                    <li><a href="pesquisa/todas">Floresta</a></li>
+                    <li><a href="pesquisa/humano">Deserto</a></li>
+                    <li><a href="pesquisa/elfo">Tundra</a></li>
+                    <li><a href="pesquisa/mutante">Costa</a></li>
+                    <li><a href="pesquisa/alien">Savana</a></li>
                 </ul>
-
             </nav>
             <div className="banner">
                 <h1>Acesso do Usuario</h1>

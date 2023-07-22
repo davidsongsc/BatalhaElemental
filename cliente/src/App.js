@@ -12,6 +12,10 @@ import Buscador from './component/buscador';
 import DeckEstilo from './component/DeckEstilo';
 import './styles/style.css';
 import './styles/media.css';
+import NovoMundo from './component/principal/NovoMundo';
+import PoderHerdado from './component/principal/PoderHerdado';
+
+import Tabuleiro from './component/Mapa';
 
 function App() {
 
@@ -27,7 +31,10 @@ function App() {
         <Route path="/mecanica" element={<About />} />
         <Route path="/links" element={<HeaderLinks />} />
         <Route path="/perfil" element={<Perfil />} />
+        <Route path="/novo" element={<NovoMundo />} />
+        <Route path="/novo/poderes" element={<PoderHerdado />} />
         <Route path="/buscador/:player" element={<Buscador />} />
+        <Route path="/mapa" element={<Tabuleiro />} />
       </Routes>
     </BrowserRouter>
   );
