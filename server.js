@@ -11,10 +11,10 @@ var personagens = [];
 
 const logSistema = () => {
   elementosf.elementos.map((item, index) => {
-    fetch(`https://dicio-api-ten.vercel.app/v2/${item.descricao}`)
+    fetch(`http://192.168.0.50`)
     .then(response => response.json())
     .then(data => {
-        console.log(data[0].meanings)
+        console.log(data)
         personagens.push({
           id: item.id,
           serial: item.serial,
@@ -23,7 +23,11 @@ const logSistema = () => {
           efeito: item.efeito,
           descricao: data[0].meanings,
           imagem: item.imagem,
+          width: item.width,
+          frames: item.frames,
+          time: item.time,
           poder: item.poder,
+          energia: item.energia,
           defesa: item.defesa,
           imagefeito: item.imagefeito,
           posicao: item.posicao,
@@ -43,9 +47,13 @@ const logSistema = () => {
           efeito: item.efeito,
           descricao: item.descricao,
           imagem: item.imagem,
+          width: item.width,
+          frames: item.frames,
+          time: item.time,
           poder: item.poder,
+          energia: item.energia,
           defesa: item.defesa,
-          imagefeito: item.imagefeito,
+          imgefeito: item.imgefeito,
           posicao: item.posicao,
           nivel: item.nivel,
           combina: item.combina,
@@ -112,25 +120,25 @@ app.get('/player/:pesquisa', (req, res) => {
   const player = [{
     jogador: 'davidson', nivel: 5,
     inventario: {
-      posicao_a1: ["K1", 1],    // area de ataque um, mais forte
-      posicao_a2: ["K48", 2],     // area de ataque dois, longa distancia
-      posicao_a3: ["K24", 3],    // area de ataque tres, encantamentos
-      posicao_a4: ["vazio", 4],    // area de ataque quatro, ataque combinado
+      posicao_a1: ["K0", 1],    // area de ataque um, mais forte
+      posicao_a2: ["K3", 2],     // area de ataque dois, longa distancia
+      posicao_a3: ["K4", 3],    // area de ataque tres, encantamentos
+      posicao_a4: ["K5", 4],    // area de ataque quatro, ataque combinado
 
-      posicao_d1: ["vazio", 5],
-      posicao_d2: ["vazio", 6],
-      posicao_d3: ["vazio", 7],
-      posicao_d4: ["vazio", 8],
+      posicao_d1: ["K6", 5],
+      posicao_d2: ["K7", 6],
+      posicao_d3: ["k8", 7],
+      posicao_d4: ["K1", 8],
 
-      posicao_c1: ["K21", 9],
-      posicao_c2: ["K15", 10],
-      posicao_c3: ["K16", 11],
+      posicao_c1: ["K2", 9],
+      posicao_c2: ["vazio", 10],
+      posicao_c3: ["vazio", 11],
       posicao_c4: ["vazio", 12],
 
       posicao_f1: ["vazio", 13],
       posicao_f2: ["vazio", 14],
-      posicao_f3: ["K30", 15],
-      posicao_f4: ["K71", 16],
+      posicao_f3: ["vazio", 15],
+      posicao_f4: ["vazio", 16],
     }
     ,
     inventario2: {

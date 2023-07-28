@@ -135,7 +135,7 @@ function Elementos() {
                 <h4>{item.efeito}</h4>
                 <h5>{item.tipo}</h5>
 
-                <div id="imagem" className={item.nome}>
+                <div  className={item.nome}>
                   <div
                     id={item.efeito}
                     className="imagemls"

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Terreno Marrom</title>
+	<style>
+		body { margin: 0; }
+	</style>
+</head>
+<body>
+	<script type="module">
+		import * as THREE from 'https://unpkg.com/three/build/three.module.js';
+
+		const scene = new THREE.Scene();
+		const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+
+		const renderer = new THREE.WebGLRenderer();
+		renderer.setSize(window.innerWidth, window.innerHeight);
+		document.body.appendChild(renderer.domElement);
+
+		const groundWidth = 255;
+		const groundHeight = 255;
+
+		// Textura de madeira escura para o terreno
+		const textureLoader = new THREE.TextureLoader();
+		const groundTexture = textureLoader.load('wood_texture.jpg'); // Certifique-se de que o arquivo esteja na mesma pasta que o arquivo HTML
+		groundTexture.wrapS = THREE.RepeatWrapping;
+		groundTexture.wrapT = THREE.RepeatWrapping;
+		groundTexture.repeat.set(10, 10); // Repetir a textura 10 vezes na horizontal e 10 vezes na vertical
+
+		const groundGeometry = new THREE.PlaneGeometry(groundWidth, groundHeight);
+		const groundMaterial = new THREE.MeshStandardMaterial({ map: groundTexture });
+		const ground = new THREE.Mesh(groundGeometry, groundMaterial);
+		scene.add(ground);
+
+		camera.position.set(0, 30, 100);
+		camera.lookAt(0, 0, 0);
+
+		const ambientLight = new THREE.AmbientLight(0xffffff, 0.5);
+		scene.add(ambientLight);
+
+		const directionalLight = new THREE.DirectionalLight(0xffffff, 0.7);
+		directionalLight.position.set(10, 20, 10);
+		scene.add(directionalLight);
+
+		function animate() {
+			requestAnimationFrame(animate);
+
+			renderer.render(scene, camera);
+		}
+
+		animate();
+	</script>
+</body>
+</html>

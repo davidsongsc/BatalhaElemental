@@ -18,8 +18,8 @@ function Home() {
           <nav>
             <ul>
               <li><a href="/buscador/davidson" title="Ir para a página de busca de partidas">Buscar Partida</a></li>
-              <li><a href="/practice" title="Ir para a página de prática">Praticar</a></li>
-              <li><a href="/learn" title="Ir para a página de aprendizagem">Aprendizagem</a></li>
+              <li><a href="/game" title="Ir para a página de prática">Praticar</a></li>
+              <li><a href="/p/todas" title="Ir para a página de aprendizagem">Cartas</a></li>
               <li><a href="/support" title="Ir para a página de suporte">Suporte</a></li>
             </ul>
           </nav>

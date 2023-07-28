@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { fundoCarta } from '../jsx/fundocarta';
 import { medidor } from "../jsx/medidor";
 import "./carta.css";
+import SpriteAnimation from "../jogo/anima/SpriteAnimation";
+import DeliniadorCartas from "../jogo/Deliniador";
 
 function Carta(props) {
   const { item, index, corSelecionada, cartaSelecionada, nome, posixy, argumento, trocaposicoes, onPositionChange, dadosCarta } = props;
@@ -34,14 +36,14 @@ function Carta(props) {
       }}
     >
       <div>
-      <h3>{item.nome}</h3>
+        <h3>{item.nome}</h3>
         <div>
-        
+
           <ul key={index} className="frente">
-         
-          <div className="nivel">Nivel:{item.nivel}</div>
+
+            <div className="nivel">Nivel:{item.nivel}</div>
             <div className="indicador">
-         
+
               <h4>{item.efeito}</h4>
             </div>
 
@@ -50,17 +52,25 @@ function Carta(props) {
               <div
                 id={item.efeito}
                 className="imagemls"
-                style={{ backgroundSize: 'cover', backgroundImage: `url(${item.imagem})` }}
-              ></div>
+
+              >
+                <DeliniadorCartas item={item} />
+              </div>
             </div>
             <p>
               {item.descricao}
             </p>
           </ul>
           <div id="fonte-poder-carta">
-            <div> A{medidor(item.poder, item.nivel, item.efeito, item.defesa)}</div>
-            <div> E{medidor(item.defesa, item.nivel, item.efeito, item.poder)}</div>
-            <div> D{medidor(item.defesa, item.nivel, item.efeito, item.poder)}</div>
+            <div>
+              <h7 className="linha-fonte-poder-carta">Dano</h7>
+              <h8>{item.poder}</h8></div>
+            <div>
+              <h7 className="linha-fonte-poder-carta">Tempo</h7>
+              <h8>{item.energia}</h8></div>
+            <div>
+              <h7 className="linha-fonte-poder-carta">hp</h7>
+              <h8>{item.defesa}</h8></div>
           </div>
         </div>
       </div>

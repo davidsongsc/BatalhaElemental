@@ -30,14 +30,14 @@ export const useFetchElementos = ({ grupo }) => {
   }
 
   useEffect(() => {
-    const apiUrl = grupo === 'todas' ? `http://192.168.0.50:5000/elemento/todas` :'http://192.168.0.50:5000/elemento/todas' ;
+    const apiUrl = `http://192.168.0.50:5000/elemento/todas`;
     const savedData = getDataFromLocalStorage();
     if (!savedData) {
       fetchAndSaveData(apiUrl);
     } else {
       setDados(savedData);
     }
-  }, [grupo]);
+  }, []);
 
   return { dados, carregando };
 };

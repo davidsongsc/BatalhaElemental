@@ -1,0 +1,24 @@
+.personagem-barra-status {
+    width: 200px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+  
+  .hp-barra,
+  .mana-barra {
+    height: 100%;
+  }
+  
+  .hp-progresso,
+  .mana-progresso {
+    height: 100%;
+    background-color: #ff0000; /* Vermelho para HP */
+  }
+  
+  .mana-progresso {
+    background-color: #0099ff; /* Azul para mana */
+  }
+  

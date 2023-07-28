@@ -1,48 +1,54 @@
-class JogoDota:
-    def __init__(self, jogador):
-        self.jogador = jogador
+from eff.criatura import *
+from eff.habilidade import Habilidade
 
-    def habilidade1(self, alvo):
-        dano = 30
-        custo_mana = 20
-        tempo_recarga = 5
+fada1 = CRIATURAS_FLORESTA[1]
+fada1.definirNivel(1)
+flora1 = CRIATURAS_FLORESTA[3]
+flora2 = CRIATURAS_FLORESTA[4]
+flora3 = CRIATURAS_FLORESTA[5]
+flora4 = CRIATURAS_FLORESTA[6]
+arcanjo = CRIATURAS_INVOCACAO[0]
+arcanjo.definirNivel(1)
 
-        if self.jogador.mana >= custo_mana:
-            print(f"{self.jogador.nome} ativou a Habilidade 1 em {alvo}.")
-            print(f"HP de {alvo} antes do ataque: {alvo.hp}")
-            alvo.hp -= dano
-            self.jogador.mana -= custo_mana
-            self.jogador.tempo_recarga_habilidade1 = tempo_recarga
-            print(f"{alvo} sofreu {dano} de dano.")
-            print(f"{self.jogador.nome} gastou {custo_mana} de mana.")
-        else:
-            print("Mana insuficiente para ativar a Habilidade 1.")
+# Habilidades do Guerreiro
+ATAQUE1 = Habilidade("investida", dano=50, custo_mana=50, tempo_recarga=5, tipo="ataque")
+ATAQUE2 = Habilidade("socao", dano=50, custo_mana=65, tempo_recarga=5, tipo="ataque")
+ATAQUE3 = Habilidade("puxada", dano=80, custo_mana=35, tempo_recarga=12, tipo="ataque")
+ATAQUE4 = Habilidade("oaocos", dano=45, custo_mana=75, tempo_recarga=12, tipo="ataque")
+ATAQUE5 = Habilidade("concentrado", dano=90, custo_mana=180, tempo_recarga=8, tipo="critico")
+ATAQUE6 = Habilidade("manifestacao", dano=50, custo_mana=40, tempo_recarga=8, tipo="aura")
+ATAQUE7 = Habilidade("cura", dano=90, custo_mana=40, tempo_recarga=8, tipo="cura")
+#Invocações
+ATAQUE8 = Habilidade("Fadinha", dano=0, custo_mana=80, tempo_recarga=15, tipo="invocar", criaturas_invocadas=[
+    flora1,
+    flora2,
+    flora3,
+    flora4  
+])
 
-    # Implemente as outras habilidades de forma similar...
 
-class Jogador:
-    def __init__(self, nome, classe, tipo_magia) -> None:
-        self.nome = nome
-        self.classe = classe
-        self.tipo_magia = tipo_magia
-        self.mana = 100
-        self.tempo_recarga_habilidade1 = 0
-        # Implemente os outros tempos de recarga...
-
-class Inimigo:
-    def __init__(self, nome, hp) -> None:
-        self.nome = nome
-        self.hp = hp
-
-# Exemplo de uso:
-jogador1 = Jogador("Jogador1", "Guerreiro", "Fogo")
-inimigo1 = Inimigo("Inimigo1", 200)
-jogo_dota = JogoDota(jogador1)
-
-print(f"{jogador1.nome}: Mana inicial: {jogador1.mana}")
-print(f"{inimigo1.nome}: HP inicial: {inimigo1.hp}")
-
-jogo_dota.habilidade1(inimigo1)
-
-print(f"{jogador1.nome}: Mana restante após Habilidade 1: {jogador1.mana}")
-print(f"{inimigo1.nome}: HP após Habilidade 1: {inimigo1.hp}")
+# INVOCADOR
+INVOCADOR1 = Habilidade("Iluminado", dano=0, custo_mana=80, tempo_recarga=15, tipo="invocar", criaturas_invocadas=[
+    arcanjo
+])
+INVOCADOR2 = Habilidade("Iluminado", dano=0, custo_mana=80, tempo_recarga=15, tipo="invocar", criaturas_invocadas=[
+    arcanjo
+])
+INVOCADOR3 = Habilidade("Iluminado", dano=0, custo_mana=80, tempo_recarga=15, tipo="invocar", criaturas_invocadas=[
+    arcanjo
+])
+INVOCADOR4 = Habilidade("Iluminado", dano=0, custo_mana=80, tempo_recarga=15, tipo="invocar", criaturas_invocadas=[
+    arcanjo
+])
+INVOCADOR5 = Habilidade("Iluminado", dano=0, custo_mana=80, tempo_recarga=15, tipo="invocar", criaturas_invocadas=[
+    arcanjo
+])
+INVOCADOR6 = Habilidade("Iluminado", dano=0, custo_mana=80, tempo_recarga=15, tipo="invocar", criaturas_invocadas=[
+    arcanjo
+])
+INVOCADOR7 = Habilidade("Iluminado", dano=0, custo_mana=80, tempo_recarga=15, tipo="invocar", criaturas_invocadas=[
+    arcanjo
+])
+INVOCADOR8 = Habilidade("Golem", dano=0, custo_mana=80, tempo_recarga=15, tipo="invocar", criaturas_invocadas=[
+    GOLEM
+])
