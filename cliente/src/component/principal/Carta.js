@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import { fundoCarta } from '../jsx/fundocarta';
-import { medidor } from "../jsx/medidor";
 import "./carta.css";
-import SpriteAnimation from "../jogo/anima/SpriteAnimation";
 import DeliniadorCartas from "../jogo/Deliniador";
 
 function Carta(props) {

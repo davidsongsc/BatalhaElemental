@@ -5,16 +5,31 @@ export function fundoCarta(tipo, efeito) {
         */}
 
     switch (tipo) {
-        case "ilusao":
-            if (efeito === 'ancestral') {
+        case "elemental":
+            if (efeito === 'extremo') {
                 return 'url("http://192.168.0.50:5000/img/raio.gif")';
             } else if (efeito === 'dominio') {
                 return 'url("https://64.media.tumblr.com/a72de0c87722d1f1288e9f6e4a1598dc/tumblr_pa6esqygmw1s60oo7o1_400.gif")';
 
+            } else if (efeito === 'infinito') {
+                return 'url("https://i.gifer.com/vJ.gif")';
+
+            } else if (efeito === 'terra') {
+                return 'url("https://i.gifer.com/Mnea.gif")';
+
+            } else if (efeito === 'raio') {
+                return 'url("https://38.media.tumblr.com/fe3842d7fbe189872e604484b9822028/tumblr_msgt8yn9wk1sgzoo8o1_500.gif")';
+
+            } else if (efeito === 'fogo') {
+                return 'url("https://usagif.com/wp-content/uploads/fire-51.gif")';
+
+            } else if (efeito === 'agua') {
+                return 'url("https://i.gifer.com/LWgi.gif")';
+
             } else if (efeito === 'especialista') {
                 return 'url("https://i.pinimg.com/originals/6b/4f/47/6b4f47601333167a545be059023b8082.gif")';
 
-            } else if (efeito === 'pleno') {
+            } else if (efeito === 'espacial') {
                 return 'url("https://i.pinimg.com/originals/c9/97/6f/c9976fc3a92540856bb957a76818875d.gif")';
             }
             else {
@@ -152,6 +167,6 @@ export function fundoCarta(tipo, efeito) {
             else {
                 return 'url()';
             }
-        
+
     };
 }

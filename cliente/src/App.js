@@ -20,6 +20,7 @@ import TelaInicial from './component/jogo/TelaInicial';
 import SpriteAnimation from './component/jogo/anima/SpriteAnimation';
 import Caixa from './component/extra/objetos/Box';
 import HeroBackground from './component/BackGround';
+import ObjTeste from './component/extra/objetos/ObjetoTeste';
 
 
 
@@ -27,7 +28,6 @@ function App() {
 
   return (
     <BrowserRouter>
-
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/cadastro" element={<Cadastro />} />
@@ -42,10 +42,8 @@ function App() {
           <Route path="/buscador/:player" element={<Buscador />} />
           <Route path="/mapa" element={<Tabuleiro />} />
           <Route path="/game" element={<TelaInicial />} />
-          <Route path="/ani" element={<SpriteAnimation />} />
+          <Route path="/ani" element={<ObjTeste />} />
           <Route path="/teste" element={<Caixa />} />
-
-
         </Routes>
 
     </BrowserRouter>
