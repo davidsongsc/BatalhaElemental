@@ -5,7 +5,7 @@ CRITICAL_DAMAGE_BASE: float = 3
 MANA_BASE: int = 600
 
 from .status import Status
-
+from .leitura import nlp
 class Herdeiro:
     def __init__(self, nome, classe, tipo_magia, mana, habilidades):
         self.nome = nome
@@ -18,9 +18,11 @@ class Herdeiro:
     def usar_habilidade(self, habilidade, alvo=None):
         if habilidade in self.habilidades:
             if self.mana >= habilidade.custo_mana:
-                print(f"{self.nome} ativou a {habilidade.nome}.")
+                doc = nlp(habilidade.nome)
+                print(f"{self.nome} ativou {habilidade.nome}.")
                 print(f"{self.nome} gastou {habilidade.custo_mana} de mana.")
-                
+                for token in doc:
+                    print(token.text, token.pos_, token.dep_)
                 # Habilidades de Ataque fisico
                 if habilidade.tipo == "ataque":
                     self.status.mana -= habilidade.custo_mana
@@ -92,5 +94,5 @@ class Herdeiro:
             else:
                 print("Mana insuficiente para ativar a habilidade.")
         else:
-            print(f"{self.nome} não possui a habilidade {habilidade.nome}.")
+            print(f"{self.nome} não possui a habilidade [{habilidade.nome.title()}].")
 

@@ -1,5 +1,6 @@
 from .baseAtributos import AtributosStatus
 from skill import *
+
 class Personagem(AtributosStatus):
     def __init__(self, nome, origem, classe, tipo_magia, habilidades=[]) -> None:
         super().__init__()
@@ -29,7 +30,7 @@ class Personagem(AtributosStatus):
 
 # Personagens Nação/Pais do Fogo.
 orgg = "fogo"
-fogoUm_01 = Personagem(nome="Marques Blaze", origem=orgg, classe="Arqueiro", tipo_magia="magia das chamas", habilidades=[ATAQUE1, ATAQUE2,ATAQUE3, ATAQUE4, ATAQUE5, ATAQUE6, ATAQUE7, ATAQUE8])
+fogoUm_01 = Personagem(nome="Marques Blaze", origem=orgg, classe="Arqueiro", tipo_magia="magia das chamas", habilidades=[ATAQUE1, ATAQUE2,ATAQUE3, ATAQUE4, ATAQUE5, ATAQUE6, ATAQUE7, ATAQUE8, ATAQUE9])
 fogoUm_02 = Personagem(nome="Patricio Ember", origem=orgg, classe="Feiticeiro", tipo_magia="Magia da brasa")
 fogoUm_02 = Personagem(nome="Angenor Solis", origem=orgg, classe="Feiticeiro", tipo_magia="Magia da Luz")
 fogoUm_02 = Personagem(nome="Fazolo Pyra", origem=orgg, classe="Guerreiro", tipo_magia="Magia da brasa")

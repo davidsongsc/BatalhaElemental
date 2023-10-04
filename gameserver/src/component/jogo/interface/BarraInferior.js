@@ -1,9 +1,11 @@
 import React from "react";
+import Terra from "../Mapa/Terra";
+import SimulacaoEspaco from "../Mapa/Space";
 function BarraInferior() {
     return (
         <div className="barra-inferior">
             <div className="mapa-jogador">
-                <div>Mapa</div>
+                <div className="mapa-jg-ilu"></div>
 
             </div>
             <div className="skills-jogador">

@@ -18,6 +18,7 @@ ATAQUE4 = Habilidade("oaocos", dano=45, custo_mana=75, tempo_recarga=12, tipo="a
 ATAQUE5 = Habilidade("concentrado", dano=90, custo_mana=180, tempo_recarga=8, tipo="critico")
 ATAQUE6 = Habilidade("manifestacao", dano=50, custo_mana=40, tempo_recarga=8, tipo="aura")
 ATAQUE7 = Habilidade("cura", dano=90, custo_mana=40, tempo_recarga=8, tipo="cura")
+ATAQUE9 = Habilidade("ritual supremo", dano=0, custo_mana=140, tempo_recarga=550, tipo="ritual")
 #Invocações
 ATAQUE8 = Habilidade("Fadinha", dano=0, custo_mana=80, tempo_recarga=15, tipo="invocar", criaturas_invocadas=[
     flora1,

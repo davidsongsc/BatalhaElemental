@@ -121,12 +121,24 @@ li:hover {
     position: absolute;
     bottom: 0px;
     right: 0px;
-    border-top-left-radius: 30%;
+    border-top-left-radius: 10%;
     background-color: #ff6600;
-    height: 16vh;
-    width: 16vh;
-}
+    height: 25%;
+    width: 15%;
+    border-width: 4px;
+    border-color: gray;
+    border-style: ridge;
 
+}
+.mapa-jg-ilu {
+    background-color: black;
+    height: 100%;
+    margin: 3% 0 0 3%;
+    border-top-left-radius: 10%;
+    border-width: 2px;
+    border-color: white;
+    border-style: groove;
+}
 .skills-jogador {
     position: absolute;
     bottom: 1px;

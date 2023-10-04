@@ -15,16 +15,16 @@ const MarAberto = () => {
       >
         <animate
           attributeName="d"
-          dur="4s"
+          dur="9s"
           repeatCount="indefinite"
-          keyTimes="0;0.5;1"
-          values="M0 200 Q 100 250 200 200 T 400 150 T 600 200 T 800 250 V 600 H 0 Z;
-                  M0 200 Q 100 150 200 200 T 400 250 T 600 200 T 800 150 V 600 H 0 Z;
-                  M0 200 Q 100 250 200 200 T 400 150 T 600 200 T 800 250 V 600 H 0 Z"
+          keyTimes="0;0.7;1"
+          values="M0 200 Q 100 250 200 200 T 400 150 T 600 200 T 800 250 V 900 H 0 Z;
+                  M0 200 Q 100 150 200 200 T 400 250 T 600 200 T 800 150 V 900 H 0 Z;
+                  M0 200 Q 100 250 200 200 T 400 150 T 600 200 T 800 250 V 900 H 0 Z"
         />
       </path>
       {/* Sol */}
-      <circle cx="750" cy="100" r="30" fill="#ffd700" />
+      <circle cx="850" cy="100" r="3" fill="#ffd700" />
     </svg>
   );
 };

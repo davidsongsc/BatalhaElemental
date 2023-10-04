@@ -1,0 +1,2 @@
+from personagem import *
+
